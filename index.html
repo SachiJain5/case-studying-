@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Case Study</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <center>
+            <div class="col-xs-12 header_div">
+                <h2>Case Study
+                    <img id="re" src="monophy.gif">
+                </h2>
+            </div>
+            
+            <ol>
+                <div class="test_images_and_results">
+                    <li>
+                        <b>Test Image - </b><img class="img-responsive" src="Phone.jpg">
+                    </li>
+                    <h4>Output on <b>Wolfram Project - </b>
+                        <span id="microft_azure1">Phone</span>
+                    </h4>
+                    <h4>Output on <b>MobileNet - </b>
+                        <span id="mobile_net1">Cell Phone</span>
+                    </h4>
+                    <div class="bob1">
+                        <h4>Result - MobileNet is more acurate.</h4>
+                    </div>
+
+                    <li>
+                        <b>Test Image - </b><img class="img-responsive" src="Watch.jpg">
+                    </li>
+                    <h4>Output on <b>Wolfram Project - </b>
+                        <span class="microsoft_azure2">Stop watch</span>
+                    </h4>
+                    <h4>Output on <b>MobileNet - </b>
+                        <span class="mobile_net2">combination lock</span>
+                    </h4>
+                    <div class="bob2">
+                        <h4>Result - Microft azure is more acurate</h4> 
+                    </div>
+
+                    
+                    <li>
+                        <b>Test Image - </b><img class="img-responsive" src="Book.jpg">
+                    </li>
+                    <h4>Output on <b>Wolfram Project - </b>
+                        <span class="microsoft_azure3">comic book</span>
+                    </h4>
+                    <h4>Output on <b>MobileNet - </b>
+                        <span class="mobile_net3">story book</span>
+                    </h4>
+                    <div class="bob3">
+                        <h4>Result - MobilNetis more acurate</h4>
+                    </div>
+
+                    
+                    <li>
+                        <b>Test Image - </b><img class="img-responsive" src="Pouch.jpg">
+                    </li>
+                    <h4>Output on <b>Wolfram Project - </b>
+                        <span class="microsoft_azure4">pencil box</span>
+                    </h4>
+                    <h4>Output on <b>MobileNet - </b>
+                        <span class="mobile_net4">pencil case</span>
+                    </h4>
+                    <div class="bob4">
+                        <h4>Result - MobileNet is more acurate</h4>
+                    </div>
+                </div>
+            </ol>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

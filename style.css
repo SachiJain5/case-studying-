@@ -1,0 +1,16 @@
+body{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: #44239e;
+    background-color: #b5b5fa;
+}
+#re{
+    width: 100px;
+    border: lavenderblush solid 5px;
+    border-radius: 100px;
+}
+.img-responsive{
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+    border: 2px solid #c383ff;
+}
